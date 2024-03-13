@@ -23,7 +23,7 @@ section{
 }
 footer h3{
 background-color: black;
-border: lightgreen solid 1px;
+border: lightgreen solid 4px;/* 4px cause lesser is hard to see */
 color: white;
 /* roboto imported from google fonts */
 font-family: Roboto,Verdana, Geneva, Tahoma, sans-serif;
