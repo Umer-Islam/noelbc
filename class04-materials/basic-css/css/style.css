@@ -1,0 +1,32 @@
+h1{
+
+color: blue;
+text-decoration: underline;
+background-color: gold;
+
+}
+h2{
+
+color: purple;
+font-size: 25px;
+font-weight: bold;
+border: orange solid 1px;
+
+}
+section{
+
+    width: 50%;
+    height: 200px;
+    background-color: gray;
+    border: black solid 1px;
+    color:white;
+}
+footer h3{
+background-color: black;
+border: lightgreen solid 1px;
+color: white;
+/* roboto imported from google fonts */
+font-family: Roboto,Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+
+}
