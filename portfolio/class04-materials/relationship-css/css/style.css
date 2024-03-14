@@ -1,0 +1,18 @@
+/* do not use class or id selector */
+
+/* make world and zebra blue */
+section >h2{
+    color: blue
+}
+/* make zebra purple */
+ section >h2 + h2{
+    color: purple;
+ }
+/* make hufflepuff gold */
+ section article >  h2 + h2{
+    color: gold;
+}
+/* keep hufflepuf goold and make unicorn gray */
+section article > h2{
+    color: gray;
+}
