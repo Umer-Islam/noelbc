@@ -1,0 +1,23 @@
+body {
+  background-color: lightseagreen;
+}
+
+.projects {
+  margin: 0 auto;
+  width: 80%;
+  border: solid rgb(80, 54, 7) 2px;
+}
+
+.custom-counter {
+  counter-reset: step-counter;
+  list-style: none;
+}
+
+.custom-counter > li {
+  counter-increment: step-counter;
+  margin-bottom: 10px; /* Optional: Adjust spacing between list items */
+}
+
+.custom-counter > li::before {
+  content: "Class " counter(step-counter) ": ";
+}
