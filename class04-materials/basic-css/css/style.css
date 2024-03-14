@@ -21,12 +21,12 @@ section{
     border: black solid 1px;
     color:white;
 }
-footer h3{
+footer > h3{
 background-color: black;
 border: lightgreen solid 4px;/* 4px cause lesser is hard to see */
 color: white;
 /* roboto imported from google fonts */
-font-family: Roboto,Verdana, Geneva, Tahoma, sans-serif;
+font-family: 'Roboto',Verdana, Geneva, Tahoma, sans-serif;
 font-size: 20px;
 
 }
