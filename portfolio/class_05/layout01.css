@@ -1,0 +1,25 @@
+header {
+  height: 150px;
+}
+
+.box1 {
+  float: left;
+  height: 300px;
+  width: 33.3333%;
+  border: black solid 1px;
+}
+.box2 {
+  float: left;
+  height: 300px;
+  width: 33%;
+  border: black solid 1px;
+}
+.box3 {
+  float: left;
+  height: 300px;
+  width: 33%;
+  border: black solid 1px;
+}
+footer {
+  height: 150px;
+}
