@@ -1,4 +1,4 @@
-header {
+header,footer {
   height: 150px;
 }
 
@@ -20,6 +20,4 @@ header {
   width: 33%;
   border: black solid 1px;
 }
-footer {
-  height: 150px;
-}
+

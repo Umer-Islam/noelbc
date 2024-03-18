@@ -1,7 +1,9 @@
 body {
   background-color: lightseagreen;
 }
-
+li {
+  margin-bottom: 8px;
+}
 .projects {
   margin: 0 auto;
   width: 80%;
