@@ -33,7 +33,9 @@ section {
   width: 40%;
   border: solid black 1px;
 }
-
+h2 {
+  font-size: 20px;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -55,6 +57,10 @@ footer {
   body {
     background-color: aquamarine;
   }
+  #tablet,
+  #laptop {
+    visibility: hidden;
+  }
 }
 @media (min-width: 601px) and (max-width: 900px) {
   section {
@@ -67,10 +73,18 @@ footer {
   body {
     background-color: cadetblue;
   }
+  #phone,
+  #laptop {
+    visibility: hidden;
+  }
 }
 @media (min-width: 901px) {
   body {
     background-color: darkcyan;
+  }
+  #tablet,
+  #phone {
+    visibility: hidden;
   }
   section {
     background-color: chocolate;
