@@ -1,0 +1,55 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  padding-bottom: 3em;
+  background-color: grey;
+}
+.nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1em;
+}
+main {
+  margin-top: 0px;
+  text-align: center;
+  height: 500px;
+  background-color: grey;
+  align-items: center;
+  /* justify-content: center; */
+  display: flex;
+
+  flex-direction: column;
+}
+h1 {
+  margin: 0px;
+}
+.why {
+  text-align: center;
+}
+
+.cta{
+    /* align-self: center; */
+}
+.cta >section> div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(86, 86, 94);
+    text-align: center;
+    
+}
+.cta > section{
+float: left;
+    width: 50%;
+background-color: yellow;
+text-align: center;
+}
+.volunteer{
+    text-align: center;
+    background-color: green;
+}
+footer{
+
+height: 6em;
+background-color:darkslategrey;
+}
