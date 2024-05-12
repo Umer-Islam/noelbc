@@ -1,7 +1,8 @@
 document.querySelector("#check").addEventListener("click", check);
 
 function check() {
-  const day = document.querySelector("#day").value;
+  let day = document.querySelector("#day").value;
+  day =day.toLowerCase();
 
   //Conditionals go here
   if (day == "tuesday" || day == "thursday") {
