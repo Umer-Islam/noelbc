@@ -1,10 +1,23 @@
 /******************************************
 /* CSS
 /*******************************************/
-
+body{
+  padding: 10%;
+}
 /* Box Model Hack */
 *{
   box-sizing: border-box;
+}
+main{
+  
+  display: flex;
+  
+
+  text-align: center;
+}
+
+button{
+  border-radius: 6%;
 }
 h1{
   text-align: center;
