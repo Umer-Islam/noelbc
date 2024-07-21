@@ -1,2 +1,2 @@
 # NoelBC
-all the code practice and projects.
+All the code practice and projects.
