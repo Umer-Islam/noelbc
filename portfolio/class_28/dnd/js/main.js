@@ -1,5 +1,5 @@
 //Example fetch using DnD5eAPI - place subclasses in ul
-console.clear();
+
 document.querySelector("button").addEventListener("click", getFetch);
 
 function getFetch() {
