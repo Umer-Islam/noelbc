@@ -10,7 +10,6 @@ class Pokemon{
         console.log(`color of ${this.name} is ${this.color} and its power is ${this.power}`)
     }
 }
-
 let firstChar = new Pokemon("picachu","yellow","⚡ ")
 console.log(firstChar)
 console.log(firstChar.intro())
