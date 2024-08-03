@@ -1,7 +1,29 @@
 // Come up with with a parent class
 // Extend that parent class into two children
-// Use Encapsulation, Abstraction, Inheritance, and Polymorphism 
-class Contractor{
+// Use Encapsulation, Abstraction, Inheritance, and Polymorphism
+class FullStack {
+  constructor(NameOfProject) {
+    this._NameOfProject = NameOfProject;
+  }
+}
+
+class FrondEnd extends FullStack {
+  constructor(stack, db_used, NameOfProject) {
+    this.stack = stack;
+    this.db_used = db_used;
+    super(NameOfProject);
+  }
+}
+
+class BackEnd extends FullStack {
+  constructor(stack, db_used) {
+    this.stack = stack;
+    this.db_used = db_used;
+    super(this.NameOfProject);
+  }
+}
+
+/* class Contractor{
     constructor(name,role){
         this._name = name
         this._role = role
@@ -49,3 +71,4 @@ let agency = [bob,simba,machi]
 for(person of agency){
     person.sayHello()
 }
+ */
